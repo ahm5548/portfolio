@@ -52,3 +52,18 @@ img {
     background-color:pink;
     font-size: smaller;
 }
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+}
+
+.gallery figure {
+    text-align: center;
+}
+
+.gallery img {
+    width: 400px;
+    height: auto;
+}
