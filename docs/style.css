@@ -67,3 +67,27 @@ img {
     width: 400px;
     height: auto;
 }
+.analysis {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.analysis figure {
+  width: 30%;
+  text-align: center;
+}
+
+.analysis img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.analysis img:hover {
+  transform: scale(1.5);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
